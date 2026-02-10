@@ -49,7 +49,7 @@ RESULTS: The application was found to be vulnerable to SQL Injection and XSS. Ap
 ![SQL Injection](screenshots/sql_injection.png)
 
 **SQL Injection Vulnerable Result**
-![SQL Injection Vulnerable](screenshots/SQLtesting_vulnerable.png)
+![SQL Injection Vulnerable](SQLtesting_vulnerable.png)
 
 ---
 
