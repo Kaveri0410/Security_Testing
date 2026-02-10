@@ -1,0 +1,55 @@
+SECURITY TESTING REPORT 
+---------------------------------------------------
+
+PROJECT NAME: Web Application Security Testing
+TESTED APPLICATION: demo.testfire.net 
+TESTING TYPE: Manual Security Testing 
+TESTER: Vijaya Bhargavi Kota 
+DATE: 05-01-2026
+
+ ---------------------------------
+ 1. SQL INJECTION TEST 
+---------------------------------
+
+Description: 
+SQL Injection allows attackers to manipulate database queries.
+Test Input: 
+Username: admin' OR '1'='1
+Password: admin' OR '1'='1 
+
+Result: 
+The application allowed login using SQL injection input.
+
+Status:
+VULNERABLE 
+
+Mitigation:
+- Use prepared statements
+- Input validation
+- Parameterized queries
+
+--------------------------------
+2. CROSS SITE SCRIPTING (XSS) 
+---------------------------------
+
+Description: 
+XSS allows injection of malicious JavaScript code. 
+
+Test Input: 
+<script>alert('XSS')</script> 
+
+Result: 
+JavaScript alert popup was displayed. 
+Status:
+VULNERABLE 
+Mitigation:
+- Input sanitization
+- Output encoding
+- Use Content Security Policy (CSP)
+
+--------------------------------- 
+OVERALL CONCLUSION
+---------------------------------
+
+The application is vulnerable to SQL Injection and XSS attacks. Proper input validation and secure coding practices are recommended. 
+
