@@ -46,7 +46,7 @@ RESULTS: The application was found to be vulnerable to SQL Injection and XSS. Ap
 ### 🔴 SQL Injection Testing
 
 **SQL Injection Attempt**
-![SQL Injection](screenshots/sql_injection.png)
+![SQL Injection](sql_injection.png)
 
 **SQL Injection Vulnerable Result**
 ![SQL Injection Vulnerable](SQLtesting_vulnerable.png)
@@ -56,8 +56,8 @@ RESULTS: The application was found to be vulnerable to SQL Injection and XSS. Ap
 ### 🔴 Cross-Site Scripting (XSS) Testing
 
 **XSS Input Attempt**
-![XSS Attempt](screenshots/xss_attempt.png)
+![XSS Attempt](xss_attempt.png)
 
 **XSS Vulnerable Output**
-![XSS Result](screenshots/xss_test.png)
+![XSS Result](xss_test.png)
 
