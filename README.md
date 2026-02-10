@@ -38,3 +38,26 @@ Security_Testing_Report.txt (Detailed security report)
 RESULTS: The application was found to be vulnerable to SQL Injection and XSS. Appropriate mitigation strategies have been documented in the security report.
 
 **DISCLAIMER**: This testing was conducted only for educational purpose on a legally permitted demo application
+
+---
+
+## 📸 Screenshots Evidence
+
+### 🔴 SQL Injection Testing
+
+**SQL Injection Attempt**
+![SQL Injection](screenshots/sql_injection.png)
+
+**SQL Injection Vulnerable Result**
+![SQL Injection Vulnerable](screenshots/SQLtesting_vulnerable.png)
+
+---
+
+### 🔴 Cross-Site Scripting (XSS) Testing
+
+**XSS Input Attempt**
+![XSS Attempt](screenshots/xss_attempt.png)
+
+**XSS Vulnerable Output**
+![XSS Result](screenshots/xss_test.png)
+
